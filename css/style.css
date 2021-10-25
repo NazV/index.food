@@ -245,7 +245,7 @@ body {
     font-size: 32px;
     line-height: 23px;
     margin-top: 0;
-    margin-bottom: 47px;
+    margin-bottom: 50px;
 }
 .delivery-week {
     padding: 100px 0;
@@ -334,11 +334,12 @@ body {
 .tabs-content {
     display: flex;
     flex-wrap: wrap;
-    margin: -37px;
+    margin: -18px;
+    margin-bottom: 60px;
 }
 .tabs-card {
     flex: 50%;
-    margin: 37px;
+    margin: 18px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -400,7 +401,6 @@ body {
 .button-center {
     display: block;
     margin: auto;
-    margin-top: 60px;
     width: 315px;
     cursor: pointer;
 }
@@ -437,32 +437,46 @@ body {
 .benefits-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: -15px;
+    margin-bottom: 90px;
 }
 .benefits-card {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #E9E9E9;
     box-sizing: border-box;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 18px;
+    border-radius: 15px;
     width: 270px;
     height: 296px;
-    align-items: center;
-    flex: none;
+    margin: 18px;
     flex-direction: column;
+    overflow: hidden;
+    position: relative;
     justify-content: space-between;
+}
+.benefits-card-content {
+    align-items: center;
 }
 .benefit-title {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
+    min-width: 158px;
+    max-width: 188px;
+    margin-left: 45px;
 }
 .benefit-description {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     color: #49494F;
+    margin-left: 24px;
+}
+.benefit-logo {
+    padding-top: 30px;
+    padding-left: 105px;
+    max-width: 100%;
 }
 @media (max-width: 1260px) {
     .container {
